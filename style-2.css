@@ -1,0 +1,79 @@
+@media only screen and (max-width:930px){
+
+   nav .navbar ul{
+    transform: translatey(-900px);
+    position: absolute;
+    top:10px;
+    right:45%;
+    
+
+   }
+   .burger{
+    display: block;
+   }
+
+
+   @media only screen and (max-width:820px){
+    .home .home-content {
+        width: 100%;
+    
+    }
+   }
+   @media only screen and (max-width:940px){
+
+    .skills .left-right{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.skills .skills-right{
+    width:90%;
+    margin:60px auto;
+}
+   }
+   .skills .coding-skills{
+    width:90%;
+    margin:10px auto;
+   }
+   .skills .skills-right #heading{
+    position: absolute;
+    top:52%;
+    left:5%;
+}
+
+
+@media only screen and (max-width:780px){
+
+    .education .journey{
+        display: flex;
+        flex-direction: column;
+    }
+    .education .journey .school{
+        width:100%;
+    }
+    .journey .college{
+        margin-left:0;
+        margin-top:40px;
+    }
+}
+@media only screen and (max-width:630px) {
+    .contact .content{
+        width:90%;
+        height:80vh;
+
+        
+    }
+}
+@media only screen and (max-width:410px){
+    .home .home-content .btn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .home .home-content .butt-2{
+        margin:0;
+        margin-top:10px;
+    }
+}
+  
+}
